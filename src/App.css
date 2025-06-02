@@ -1,0 +1,73 @@
+.weather {
+    padding: 40px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 40vh;
+    height: auto;
+    box-shadow: 10px 5px 5px black;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+}
+.search-bar img {
+    background-color: #ebfffc;
+    padding: 15px;
+    border-radius: 50%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ebfffc;
+}
+.content h1 {
+    font-size: 5rem;
+}
+.content h2 {
+    font-size: 2rem;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 50px;
+    color: #ebfffc;
+}
+.humidity {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.humidity img {
+    height: 30px;
+    width: 30px;
+}
+.humidity-info h3 {
+    /* font-size: ; */
+}
+.wind {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.wind img {
+    height: 30px;
+    width: 30px;
+}
